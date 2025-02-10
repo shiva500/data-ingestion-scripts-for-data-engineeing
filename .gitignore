@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all Parquet files
+*.parquet
+**/*.parquet
+
+# Distribution / packaging
+.Python
+build/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
