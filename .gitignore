@@ -11,6 +11,19 @@ __pycache__/
 .Python
 build/
 
+# Ignore PostgreSQL database files
+*.pgsql
+*.pgdump
+*.sql
+*.db
+*.backup
+
+# Ignore PostgreSQL directories
+ny_taxi_postgres_data/
+pgdata/
+pg_log/
+postgresql/
+data/
 
 # Jupyter Notebook
 .ipynb_checkpoints
